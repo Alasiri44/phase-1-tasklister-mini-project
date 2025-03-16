@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Making the paragraph editable  
 
   button1.addEventListener('click', function(e) {
-    console.log("I have been clicked");
+    
      const input = document.createElement('input');
      const originalText = p.innerHTML;
      
